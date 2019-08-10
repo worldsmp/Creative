@@ -1,0 +1,19 @@
+name: Creative
+version: 1.0.0
+description: WorldSMP creative plugin.
+author: Spacey
+main: com.theworldsmp.creative.Creative
+api-version: 1.14
+commands:
+  head:
+    aliases: [playerhead]
+    description: Change the skin of a held head
+  ptime:
+    aliases: [playertime]
+    description: Change client-side time
+  pweather:
+    aliases: [playerweather]
+    description: Change client-side weather
+  nv:
+    aliases: [nightvision]
+    description: Toggle nightvision
